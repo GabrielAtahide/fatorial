@@ -1,0 +1,60 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da janela */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+  }
+  
+  /* Estilo do Título */
+  h1 {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 0; /* Remove a margem superior */
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    color: #002901; /* Cor do texto */
+  }
+  
+  /* Container para botões */
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 20px; /* Espaçamento acima dos botões */
+  }
+  
+  /* Estilo dos Botões */
+  .dashboard-buttons button {
+    background-color: #00c247; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px 25px; /* Espaçamento interno */
+    margin: 10px; /* Margem entre os botões */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background-color 0.3s; /* Transição suave para hover */
+    text-align: center;
+    }
+  
+  
+  /* Efeito de Hover para Botões */
+  .dashboard-buttons button:hover  {
+    background-color: #045719; /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem; /* Reduz o tamanho da fonte em dispositivos móveis */
+    }
+    .button {
+      font-size: 0.9rem; /* Ajusta o tamanho da fonte dos botões */
+      padding: 12px 20px; /* Reduz o espaçamento interno */
+    }
+  }
+  
